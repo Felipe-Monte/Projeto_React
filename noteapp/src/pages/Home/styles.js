@@ -58,4 +58,12 @@ export const Content = styled.div`
 
 export const NewNotes = styled.button`
  grid-area: newNote;
+ background-color: ${({ theme }) => theme.COLORS.ORANGE};
+ border: none;
+ align-items: center;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
 `
