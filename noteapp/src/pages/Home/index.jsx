@@ -36,7 +36,6 @@ export function Home() {
               { id: '2', name: 'Javascript' }
             ]
           }} />
-
         </Section>
       </Content>
 
