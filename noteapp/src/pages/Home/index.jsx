@@ -28,7 +28,7 @@ export function Home() {
       </Search>
 
       <Content>
-        <Section title='minha notas'>
+        <Section title='Minhas notas'>
           <Note data={{
             title: 'Carlos Felipe',
             tags: [
