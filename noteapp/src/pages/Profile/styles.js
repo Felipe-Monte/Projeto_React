@@ -16,6 +16,7 @@ export const Container = styled.div`
     svg {
       width: 25px;
       height: 25px;
+      color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
 `
@@ -51,7 +52,7 @@ export const Avatar = styled.div`
     width: 50px;
     height: 50px;
 
-    background-color: ${({theme})=> theme.COLORS.ORANGE};
+    background-color: ${({ theme }) => theme.COLORS.ORANGE};
     border-radius: 50%;
 
     display: flex;
